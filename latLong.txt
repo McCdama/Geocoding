@@ -1,0 +1,7 @@
+[
+    {33.511401,36.307267},
+]
+
+
+
+[Location(Seestraße, Leopoldkiez, Wedding, Mitte, Berlin, 13347, Deutschland, (52.5555438, 13.3621963, 0.0)), Location(Seestraße, Charlottenburg-Nord, Charlottenburg-Wilmersdorf, Berlin, 13627, Deutschland, (52.5383578, 13.3259914, 0.0)), Location(Seestraße, Brüsseler Kiez, Wedding, Mitte, Berlin, 13347, Deutschland, (52.5506907, 13.3520952, 0.0)), Location(Seestraße, Brüsseler Kiez, Wedding, Mitte, Berlin, 13353, Deutschland, (52.5470828, 13.3451923, 0.0)), Location(Seestraße, Brüsseler Kiez, Wedding, Mitte, Berlin, 13347, Deutschland, (52.5514644, 13.3539741, 0.0)), Location(Oldenburger Graben,Seestr, Seestraße, Weißenhäuser Strand, Wangels, Oldenburg-Land, Ostholstein, Schleswig-Holstein, 23758, Deutschland, (54.3079222, 10.7849049, 0.0)), Location(Seestr., 79822 Titisee-Neustadt, Seestraße, Titisee, Titisee-Neustadt, Verwaltungsgemeinschaft Titisee-Neustadt, Landkreis Breisgau-Hochschwarzwald, Baden-Württemberg, 79822, Deutschland, (47.9013867, 8.1514711, 0.0)), Location(Hohen Neuendorf, Seestr., Oranienburger Straße, Hohen Neuendorf, Oberhavel, Brandenburg, 16540, Deutschland, (52.6827933, 13.2818764, 0.0)), Location(Fryderyka Chopina, Moryń-Osiedle, Moryń, gmina Moryń, powiat gryfiński, województwo zachodniopomorskie, 74-503, Polska, (52.8582494, 14.4009733, 0.0))]   

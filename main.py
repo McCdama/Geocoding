@@ -12,7 +12,6 @@ for loc in location:
     print(loc.raw,'\n')
 print("===============/Standard===============")
 
-
 print("===============Reversed===============")
 reversedLocation = geolocator.reverse("48.489232349999995, 9.219866345516573")
 print(reversedLocation.address)
@@ -21,14 +20,23 @@ print(reversedLocation.raw)
 print("===============/Reversed===============")
 
 print("===============Func tool parameter===============")
-geocode = partial(geolocator.geocode, language="ar")
-print(geocode("london"))
+geocode = partial(geolocator.geocode, language="ar", )
+print(geocode("ساحة النجمة"))
+
+
+print("===============Geo-Arabic===============")
+
+arabicLocation = geolocator.geocode("ساحة النجمة", exactly_one=False) # Place de l'Étoile
+for loc in arabicLocation:
+    print(loc.raw,'\n')
+
+print("===============/Geo-Arabic===============")
 
 print("===============Folium===============")
 
 tooltip = "Click me!"
 m = folium.Map(location=[loc.raw['lat'], loc.raw['lon']], zoom_start=13)
-for loc in location:
+for loc in arabicLocation:
     #print(loc.raw,'\n')
     folium.Marker(
         [loc.raw['lat'], loc.raw['lon']],

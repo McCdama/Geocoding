@@ -1,17 +1,24 @@
+
+
 1- Input: Text ou juste l'EN `?
+
 we should pass a text file and then iterate over it to pull out
 the name(s) we want  
 
 2- Input foramt: text/ XML?
+does not matter which extension type is as long as we pass either 
+a single string to decode function or: DataFrame from panda bundle
+--> query (str) – The address or query you wish to geocode. 
 
 
 3- Language
-
-
+Arabic support for only pre-titeld/definded arabic places! 
 
 4- Payant ou pas?
 Geocoding is provided by a number of different services, 
 which are not affiliated with geopy in any way. 
 These services provide APIs, which anyone could implement, 
 and geopy is just a library which provides these implementations for many different services in a single package.
+
+See also MapQuest --> https://geopy.readthedocs.io/en/stable/#mapquest
 
