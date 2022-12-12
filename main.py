@@ -1,5 +1,7 @@
 from functools import partial
 from geopy.geocoders import Nominatim
+import folium
+
 geolocator = Nominatim(user_agent="McCdama")
 location = geolocator.geocode("Seestr. 18/1 72764")
 print("===============Standard===============")
@@ -20,6 +22,17 @@ print("===============Func tool parameter===============")
 geocode = partial(geolocator.geocode, language="ar")
 print(geocode("london"))
 
+print("===============Folium===============")
+m = folium.Map(location=[location.latitude, location.longitude], zoom_start=13)
+tooltip = "Click me!"
+folium.Marker(
+    [location.latitude, location.longitude],
+    popup="<i>Home sweet Home!</i>",
+    tooltip=tooltip,
+    icon=folium.Icon(color="red", icon="info-sign"),
+    radius=50,
+).add_to(m)
 
-print("===============/Func tool parameter===============")
+m.save("index.html")
+
 
